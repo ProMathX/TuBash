@@ -39,4 +39,11 @@ nix-env -iA nixos.openconnect
 nix-env -iA nixos.networkmanager-openconnect
 nix-env -iA nixos.webkitgtk_6_0
 ```
+
+## Nutzen 
+```bash
+sudo chmod +x vpn.sh
+./vpn.sh
+```
+
 [Quelle](https://wiki.fsinf.at/wiki/TU-VPN)
