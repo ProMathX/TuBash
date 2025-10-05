@@ -32,7 +32,11 @@ sudo pacman -S networkmanager-openconnect openconnect webkit2gtk-4.1 gcr
 **Gentoo:**
 ```bash
 sudo emerge -av net-vpn/openconnect net-vpn/networkmanager-openconnect net-libs/webkit-gtk gnome-extra/nm-applet
+
 ```
+Bemerkung an Gentoo Nutzer, webkitgtk ist nicht verpflichtend, ist aber ein nice to have. 
+Bitte korrekte USE Flags setzen: https://packages.gentoo.org/packages/net-libs/webkit-gtk
+
 **NixOS:**
 ```bash
 nix-env -iA nixos.openconnect
